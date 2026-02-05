@@ -36,11 +36,11 @@ export function ProductPreview() {
           <ul className="space-y-2 text-muted-foreground">
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-accent rounded-full" />
-              Figma source files
+              Radix ui Source files
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-accent rounded-full" />
-              React/Tailwind code
+              Next/React/Tailwind code
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-accent rounded-full" />

@@ -50,8 +50,8 @@ export default function Home() {
           {/* Pricing Box */}
           <div className="inline-flex flex-col items-center bg-card border border-border rounded-2xl p-8 mb-8">
             <div className="flex items-baseline gap-1 mb-2">
-              <span className="text-4xl font-bold text-foreground">$29</span>
-              <span className="text-muted-foreground line-through">$49</span>
+              <span className="text-4xl font-bold text-foreground">$19</span>
+              <span className="text-muted-foreground line-through">$29</span>
             </div>
             <p className="text-sm text-muted-foreground mb-6">One-time purchase. Lifetime access.</p>
             
@@ -61,7 +61,7 @@ export default function Home() {
               className="gumroad-button inline-flex items-center justify-center gap-2 bg-accent text-accent-foreground font-semibold px-8 py-4 rounded-lg text-lg hover:opacity-90 transition-opacity min-w-[240px]"
             >
               <Download className="w-5 h-5" />
-              Buy Now - $29
+              Buy Now - $19
             </a>
 
             {/* Trust Signals */}
@@ -69,10 +69,6 @@ export default function Home() {
               <span className="flex items-center gap-1">
                 <Check className="w-4 h-4 text-accent" />
                 Instant download
-              </span>
-              <span className="flex items-center gap-1">
-                <Zap className="w-4 h-4 text-accent" />
-                Figma + Code
               </span>
               <span className="flex items-center gap-1">
                 <Check className="w-4 h-4 text-accent" />
@@ -139,7 +135,7 @@ export default function Home() {
             className="gumroad-button inline-flex items-center justify-center gap-2 bg-accent text-accent-foreground font-semibold px-8 py-4 rounded-lg text-lg hover:opacity-90 transition-opacity"
           >
             <Download className="w-5 h-5" />
-            Get Started - $29
+            Get Started - $19
           </a>
           <p className="text-sm text-muted-foreground mt-4">
             30-day money-back guarantee
@@ -153,7 +149,7 @@ export default function Home() {
           <span className="text-sm text-muted-foreground">
             Starter UI Kit - Built for modern designers
           </span>
-          <div className="flex items-center gap-6">
+          {/* <div className="flex items-center gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Terms
             </a>
@@ -163,7 +159,7 @@ export default function Home() {
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Contact
             </a>
-          </div>
+          </div> */}
         </div>
       </footer>
     </main>

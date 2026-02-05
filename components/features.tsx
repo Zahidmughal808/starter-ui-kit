@@ -13,14 +13,14 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Figma + Code",
-    description: "Figma files and production-ready code",
+    title: "Starter + Code",
+    description: "Starter files and production-ready code",
   },
 ]
 
 export function Features() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-3xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-3xl mx-auto justify-items-center items-center">
       {features.map((feature) => (
         <div
           key={feature.title}

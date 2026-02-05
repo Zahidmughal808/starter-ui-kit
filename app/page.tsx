@@ -33,10 +33,10 @@ export default function Home() {
       <section className="max-w-5xl mx-auto px-6 py-20 md:py-32">
         <div className="text-center mb-16">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-secondary border border-border rounded-full px-4 py-1.5 mb-8">
+          {/* <div className="inline-flex items-center gap-2 bg-secondary border border-border rounded-full px-4 py-1.5 mb-8">
             <Star className="w-4 h-4 text-accent fill-accent" />
             <span className="text-sm text-muted-foreground">Trusted by 2,000+ designers</span>
-          </div>
+          </div> */}
 
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl font-bold text-foreground text-balance mb-6">
@@ -50,7 +50,7 @@ export default function Home() {
           {/* Pricing Box */}
           <div className="inline-flex flex-col items-center bg-card border border-border rounded-2xl p-8 mb-8">
             <div className="flex items-baseline gap-1 mb-2">
-              <span className="text-4xl font-bold text-foreground">$19</span>
+              <span className="text-4xl font-bold text-foreground">$10</span>
               <span className="text-muted-foreground line-through">$29</span>
             </div>
             <p className="text-sm text-muted-foreground mb-6">One-time purchase. Lifetime access.</p>
@@ -61,7 +61,7 @@ export default function Home() {
               className="gumroad-button inline-flex items-center justify-center gap-2 bg-accent text-accent-foreground font-semibold px-8 py-4 rounded-lg text-lg hover:opacity-90 transition-opacity min-w-[240px]"
             >
               <Download className="w-5 h-5" />
-              Buy Now - $19
+              Buy Now - $10
             </a>
 
             {/* Trust Signals */}
@@ -101,10 +101,10 @@ export default function Home() {
       <section className="border-t border-border">
         <div className="max-w-5xl mx-auto px-6 py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
+            {/* <div>
               <div className="text-3xl font-bold text-foreground mb-1">2,000+</div>
               <div className="text-muted-foreground">Happy customers</div>
-            </div>
+            </div> */}
             <div>
               <div className="text-3xl font-bold text-foreground mb-1">50+</div>
               <div className="text-muted-foreground">Components included</div>
@@ -135,7 +135,7 @@ export default function Home() {
             className="gumroad-button inline-flex items-center justify-center gap-2 bg-accent text-accent-foreground font-semibold px-8 py-4 rounded-lg text-lg hover:opacity-90 transition-opacity"
           >
             <Download className="w-5 h-5" />
-            Get Started - $19
+            Get Started - $10
           </a>
           <p className="text-sm text-muted-foreground mt-4">
             30-day money-back guarantee
